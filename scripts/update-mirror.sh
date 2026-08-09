@@ -1,5 +1,4 @@
 #!/bin/bash
-# prout.sh
 folder="/var/backups"
 if [ ! -d "$folder" ]; then
 	echo "${folder} does not exists. Creating it it."
