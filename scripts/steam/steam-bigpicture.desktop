@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Steam Big Picture
-Comment=Start Steam in Big Picture Mode
-Exec=/usr/local/bin/steam-session
-Type=Application
-DesktopNames=steam
-X-LightDM-DesktopName=Steam Big Picture
