@@ -3,6 +3,7 @@ PREFIX ?= /usr/local/bin
 install:
 	for f in scripts/*.sh; do \
 	  sudo ln -sf "$(PWD)/$$f" "$(PREFIX)/$$(basename $$f .sh)"; \
+	  sudo chmod +x "$(PWD)/$$f"; \
 	done
 
 uninstall:
